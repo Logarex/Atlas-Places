@@ -1,5 +1,6 @@
 {
   "NSPhotoLibraryUsageDescription": "Atlas Places te permite elegir fotos de tu propiedad para guardarlas localmente o enviarlas para revisión.",
   "NSPhotoLibraryAddUsageDescription": "Atlas Places puede guardar fotos de visitas exportadas cuando eliges compartir o hacer una copia de seguridad de tus datos locales.",
-  "NSCameraUsageDescription": "Atlas Places puede usar la cámara si decides agregar una foto personal de la tienda."
+  "NSCameraUsageDescription": "Atlas Places puede usar la cámara si decides agregar una foto personal de la tienda.",
+  "NSMicrophoneUsageDescription": "Atlas Places utiliza el micrófono para grabar notas de audio de tus visitas."
 }
