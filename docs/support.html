@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas Places - Support</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            position: relative;
+        }
+        h1 {
+            color: #111;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            color: #222;
+            margin-top: 1.5rem;
+        }
+        p {
+            margin-bottom: 1.5rem;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007aff;
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .lang-switcher {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+        }
+        select {
+            padding: 0.5rem;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+        .lang-content {
+            display: none;
+        }
+        .lang-content.active {
+            display: block;
+        }
+        .developer-note {
+            margin-top: 3rem; 
+            font-size: 0.9rem; 
+            color: #666;
+            border-top: 1px solid #eee;
+            padding-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+            <select id="language-select" onchange="changeLanguage()">
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="es">Español</option>
+                <option value="it">Italiano</option>
+                <option value="de">Deutsch</option>
+            </select>
+        </div>
+
+        <!-- English -->
+        <div id="lang-en" class="lang-content active">
+            <h1>Atlas Places Support</h1>
+            <p>Need help with Atlas Places? Have a question, a suggestion, or found a bug? We are here to help!</p>
+            
+            <h2>Contact Us</h2>
+            <p>You can reach out to our support team directly by email. We typically respond within 24-48 hours.</p>
+            
+            <a href="mailto:atlas-places@nephoos.com?subject=Atlas%20Places%20Support" class="button">Contact Support</a>
+            
+            <p class="developer-note">
+                If you are a developer, you can also check out our <a href="https://github.com/Logarex/Atlas-Places/issues">GitHub Issues page</a>.
+            </p>
+        </div>
+
+        <!-- French -->
+        <div id="lang-fr" class="lang-content">
+            <h1>Assistance Atlas Places</h1>
+            <p>Besoin d'aide avec Atlas Places ? Vous avez une question, une suggestion ou vous avez trouvé un bug ? Nous sommes là pour vous aider !</p>
+            
+            <h2>Contactez-nous</h2>
+            <p>Vous pouvez contacter notre équipe d'assistance directement par e-mail. Nous répondons généralement dans les 24 à 48 heures.</p>
+            
+            <a href="mailto:atlas-places@nephoos.com?subject=Assistance%20Atlas%20Places" class="button">Contacter l'assistance</a>
+            
+            <p class="developer-note">
+                Si vous êtes développeur, vous pouvez également consulter notre page <a href="https://github.com/Logarex/Atlas-Places/issues">GitHub Issues</a>.
+            </p>
+        </div>
+
+        <!-- Spanish -->
+        <div id="lang-es" class="lang-content">
+            <h1>Soporte de Atlas Places</h1>
+            <p>¿Necesitas ayuda con Atlas Places? ¿Tienes alguna pregunta, sugerencia o has encontrado un error? ¡Estamos aquí para ayudarte!</p>
+            
+            <h2>Contáctanos</h2>
+            <p>Puedes comunicarte con nuestro equipo de soporte directamente por correo electrónico. Normalmente respondemos en 24-48 horas.</p>
+            
+            <a href="mailto:atlas-places@nephoos.com?subject=Soporte%20Atlas%20Places" class="button">Contactar Soporte</a>
+            
+            <p class="developer-note">
+                Si eres desarrollador, también puedes consultar nuestra página de <a href="https://github.com/Logarex/Atlas-Places/issues">GitHub Issues</a>.
+            </p>
+        </div>
+
+        <!-- Italian -->
+        <div id="lang-it" class="lang-content">
+            <h1>Supporto Atlas Places</h1>
+            <p>Hai bisogno di aiuto con Atlas Places? Hai una domanda, un suggerimento o hai trovato un bug? Siamo qui per aiutarti!</p>
+            
+            <h2>Contattaci</h2>
+            <p>Puoi contattare il nostro team di supporto direttamente via email. Di solito rispondiamo entro 24-48 ore.</p>
+            
+            <a href="mailto:atlas-places@nephoos.com?subject=Supporto%20Atlas%20Places" class="button">Contatta il Supporto</a>
+            
+            <p class="developer-note">
+                Se sei uno sviluppatore, puoi anche visitare la nostra pagina <a href="https://github.com/Logarex/Atlas-Places/issues">GitHub Issues</a>.
+            </p>
+        </div>
+
+        <!-- German -->
+        <div id="lang-de" class="lang-content">
+            <h1>Atlas Places Support</h1>
+            <p>Brauchst du Hilfe bei Atlas Places? Hast du eine Frage, einen Vorschlag oder einen Fehler gefunden? Wir sind hier, um zu helfen!</p>
+            
+            <h2>Kontaktiere uns</h2>
+            <p>Du kannst unser Support-Team direkt per E-Mail erreichen. Wir antworten normalerweise innerhalb von 24-48 Stunden.</p>
+            
+            <a href="mailto:atlas-places@nephoos.com?subject=Atlas%20Places%20Support" class="button">Support kontaktieren</a>
+            
+            <p class="developer-note">
+                Wenn du Entwickler bist, kannst du auch unsere <a href="https://github.com/Logarex/Atlas-Places/issues">GitHub Issues-Seite</a> besuchen.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function changeLanguage() {
+            const selectedLang = document.getElementById('language-select').value;
+            
+            // Hide all language contents
+            const contents = document.querySelectorAll('.lang-content');
+            contents.forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            // Show selected language content
+            const activeContent = document.getElementById('lang-' + selectedLang);
+            if (activeContent) {
+                activeContent.classList.add('active');
+            }
+            
+            // Update document title and lang attribute
+            document.documentElement.lang = selectedLang;
+            const titleMap = {
+                'en': 'Atlas Places - Support',
+                'fr': 'Atlas Places - Assistance',
+                'es': 'Atlas Places - Soporte',
+                'it': 'Atlas Places - Supporto',
+                'de': 'Atlas Places - Support'
+            };
+            document.title = titleMap[selectedLang];
+        }
+
+        // Try to auto-detect browser language on load
+        document.addEventListener('DOMContentLoaded', () => {
+            const userLang = navigator.language || navigator.userLanguage;
+            const langCode = userLang.split('-')[0];
+            const supportedLangs = ['en', 'fr', 'es', 'it', 'de'];
+            
+            if (supportedLangs.includes(langCode)) {
+                document.getElementById('language-select').value = langCode;
+                changeLanguage();
+            }
+        });
+    </script>
+</body>
+</html>
