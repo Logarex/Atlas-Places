@@ -1,6 +1,6 @@
 {
-  "NSPhotoLibraryUsageDescription": "Atlas Places ti permette di scegliere le tue foto per salvarle localmente o inviarle per la revisione.",
-  "NSPhotoLibraryAddUsageDescription": "Atlas Places può salvare le foto delle visite esportate quando scegli di condividere o fare il backup dei tuoi dati locali.",
-  "NSCameraUsageDescription": "Atlas Places può usare la fotocamera se decidi di aggiungere una foto personale del negozio.",
-  "NSMicrophoneUsageDescription": "Atlas Places utilizza il microfono per registrare note audio durante le tue visite."
+  "NSPhotoLibraryUsageDescription": "Atlas Places richiede l'accesso alla tua libreria di foto per permetterti di allegare foto alle tue visite. Ad esempio, puoi scegliere una foto di un Apple Store dalla tua galleria e aggiungerla al tuo registro delle visite locale o inviarla per la revisione.",
+  "NSPhotoLibraryAddUsageDescription": "Atlas Places richiede l'autorizzazione per aggiungere foto alla tua libreria in modo da poter esportare le immagini. Ad esempio, puoi salvare una foto della visita a un negozio direttamente nel tuo rullino per il backup.",
+  "NSCameraUsageDescription": "Atlas Places richiede l'accesso alla fotocamera per permetterti di scattare foto direttamente dall'app. Ad esempio, puoi scattare una foto della vetrina di un negozio durante la tua visita e allegarla immediatamente al tuo registro delle visite.",
+  "NSMicrophoneUsageDescription": "Atlas Places richiede l'accesso al microfono per permetterti di registrare memo vocali. Ad esempio, puoi registrare una rapida nota audio sulla tua esperienza in negozio e allegarla al tuo registro delle visite."
 }

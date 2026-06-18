@@ -1,6 +1,6 @@
 {
-  "NSPhotoLibraryUsageDescription": "Mit Atlas Places kannst du eigene Fotos auswählen, um sie lokal zu speichern oder zur Überprüfung einzureichen.",
-  "NSPhotoLibraryAddUsageDescription": "Atlas Places kann exportierte Besuchsfotos speichern, wenn du dich dafür entscheidest, deine lokalen Daten zu teilen oder zu sichern.",
-  "NSCameraUsageDescription": "Atlas Places kann die Kamera verwenden, wenn du ein persönliches Store-Foto hinzufügen möchtest.",
-  "NSMicrophoneUsageDescription": "Atlas Places verwendet das Mikrofon, um Audionotizen für deine Besuche aufzuzeichnen."
+  "NSPhotoLibraryUsageDescription": "Atlas Places benötigt Zugriff auf deine Fotomediathek, damit du deinen Besuchen Fotos hinzufügen kannst. Du kannst zum Beispiel ein Bild eines Apple Stores aus deiner Galerie auswählen und es zu deinem lokalen Besuchsprotokoll hinzufügen oder es zur Überprüfung einreichen.",
+  "NSPhotoLibraryAddUsageDescription": "Atlas Places benötigt die Berechtigung, Fotos zu deiner Fotomediathek hinzuzufügen, damit du Bilder exportieren kannst. Du kannst zum Beispiel ein Foto von einem Store-Besuch zur Sicherung direkt in deinen Aufnahmen speichern.",
+  "NSCameraUsageDescription": "Atlas Places benötigt Kamerazugriff, damit du Fotos direkt in der App aufnehmen kannst. Du kannst zum Beispiel während deines Besuchs ein Foto eines Schaufensters machen und es sofort deinem Besuchsprotokoll hinzufügen.",
+  "NSMicrophoneUsageDescription": "Atlas Places benötigt Zugriff auf das Mikrofon, damit du Sprachmemos aufnehmen kannst. Du kannst zum Beispiel eine kurze Audionotiz über deine Erfahrung im Store aufnehmen und sie deinem Besuchsprotokoll hinzufügen."
 }
