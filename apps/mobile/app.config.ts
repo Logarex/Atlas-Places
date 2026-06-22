@@ -25,13 +25,13 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     },
     infoPlist: {
       NSPhotoLibraryUsageDescription:
-        "Atlas Places lets you choose photos you own to save them locally or submit them for review.",
+        "Atlas Places requires access to your photo library so you can attach photos to your visits. For example, you can choose a picture of an Apple Store from your gallery and add it to your local visit log or submit it for community review.",
       NSPhotoLibraryAddUsageDescription:
-        "Atlas Places may save exported visit photos when you choose to share or back up your local data.",
+        "Atlas Places requires permission to add photos to your library so you can export images. For example, you can save a photo from a store visit directly to your camera roll for backup.",
       NSCameraUsageDescription:
-        "Atlas Places can use the camera if you choose to add a personal store photo.",
+        "Atlas Places requires camera access so you can take photos directly within the app. For example, you can capture a picture of a storefront while visiting and attach it immediately to your visit log.",
       NSMicrophoneUsageDescription:
-        "Atlas Places uses the microphone to record audio notes for your visits."
+        "Atlas Places requires microphone access so you can record voice memos. For example, you can record a quick audio note about your store experience and attach it to your visit log."
     }
   },
   android: {
@@ -56,7 +56,20 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       "expo-image-picker",
       {
         photosPermission:
-          "Atlas Places lets you choose photos you own to save them locally or submit them for review."
+          "Atlas Places requires access to your photo library so you can attach photos to your visits. For example, you can choose a picture of an Apple Store from your gallery and add it to your local visit log or submit it for community review.",
+        cameraPermission:
+          "Atlas Places requires camera access so you can take photos directly within the app. For example, you can capture a picture of a storefront while visiting and attach it immediately to your visit log.",
+        microphonePermission:
+          "Atlas Places requires microphone access so you can record voice memos. For example, you can record a quick audio note about your store experience and attach it to your visit log."
+      }
+    ],
+    [
+      "expo-camera",
+      {
+        cameraPermission:
+          "Atlas Places requires camera access so you can take photos directly within the app. For example, you can capture a picture of a storefront while visiting and attach it immediately to your visit log.",
+        microphonePermission:
+          "Atlas Places requires microphone access so you can record voice memos. For example, you can record a quick audio note about your store experience and attach it to your visit log."
       }
     ]
   ],
